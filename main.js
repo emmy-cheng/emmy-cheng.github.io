@@ -1,5 +1,3 @@
-import './style.css'
-
 // ── Nav: hidden at top, appears on scroll up ──
 const nav = document.getElementById('nav')
 let lastY = 0

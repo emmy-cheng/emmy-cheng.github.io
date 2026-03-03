@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slowFade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes upIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slow-fade  { animation: slowFade 1.6s ease 0.2s both; }
+.animate-up-1       { animation: upIn 0.8s ease 1s both; }
+.animate-up-2       { animation: upIn 0.9s ease 1.15s both; }
+.animate-up-3       { animation: upIn 0.8s ease 1.4s both; }
+.animate-up-seal    { animation: slowFade 1s ease 1.6s both; }
+.animate-up-hanzi   { animation: slowFade 1s ease 2s both; }
+.animate-up-scroll  { animation: slowFade 1s ease 2.2s both; }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
