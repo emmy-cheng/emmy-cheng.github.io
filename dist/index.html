@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmy Cheng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BD9QvttT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BL7fWM28.css">
+</head>
+<body class="bg-bg text-ink font-sans font-light overflow-x-hidden">
+
+  <!-- ── NAV ── -->
+  <nav id="nav"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center
+           px-14 py-6 bg-bg/95 backdrop-blur-sm
+           -translate-y-full transition-transform duration-400 ease-in-out">
+    <a href="#hero"
+      class="font-serif text-base font-normal text-ink no-underline tracking-wide">
+      Emmy <em class="italic text-accent not-italic">Cheng</em>
+    </a>
+    <ul class="flex gap-10 list-none">
+      <li><a href="#gallery"
+        class="font-sans text-xs font-light tracking-widest uppercase text-mid
+               hover:text-ink transition-colors duration-200 no-underline">Works</a></li>
+      <li><a href="#about"
+        class="font-sans text-xs font-light tracking-widest uppercase text-mid
+               hover:text-ink transition-colors duration-200 no-underline">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero" class="relative h-screen overflow-hidden">
+
+    <!-- Background image -->
+    <img
+      src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569472/sardines_kyjgql.jpg"
+      alt="Sardines — Emmy Cheng"
+      class="absolute inset-0 w-full h-full object-cover brightness-[0.82] animate-slow-fade"
+    >
+
+    <!-- Seal top-right -->
+    <div class="absolute top-11 right-14 w-16 h-16 border border-white/55
+                flex items-center justify-center animate-up-seal">
+      <span class="font-serif text-[1.7rem] font-light text-white/75 leading-none">李</span>
+    </div>
+
+    <!-- Vertical hanzi — left -->
+    <p class="absolute left-14 top-1/2 -translate-y-1/2
+              [writing-mode:vertical-rl] text-orientation-mixed
+              font-serif text-base font-light tracking-[0.3em] text-white/35
+              animate-up-hanzi select-none hidden md:block">
+      油畫與紙黏土
+    </p>
+
+    <!-- Text overlay -->
+    <div class="absolute bottom-0 left-0 right-0 px-14 pb-20
+                bg-gradient-to-t from-[rgba(20,18,14,0.88)] via-[rgba(20,18,14,0.35)] to-transparent">
+      <p class="animate-up-1 font-sans text-[0.72rem] font-normal tracking-[0.32em]
+                uppercase text-white/85 mb-5">
+        Oil painting &amp; paper clay · Taiwan &amp; Vancouver
+      </p>
+      <h1 class="animate-up-2 font-serif font-normal leading-[0.95] text-white
+                 text-[clamp(3.8rem,8vw,8.5rem)] tracking-tight
+                 [text-shadow:0_2px_40px_rgba(0,0,0,0.35)]">
+        Emmy<br><em class="italic">Cheng</em>
+      </h1>
+      <p class="animate-up-3 mt-5 font-sans text-sm font-light tracking-[0.2em] text-white/78">
+        Rooted in nature &nbsp;·&nbsp; Shaped by two shores
+      </p>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="absolute bottom-20 right-14 flex flex-col items-center gap-2
+                font-sans text-[0.55rem] font-light tracking-[0.28em] uppercase
+                text-white/38 animate-up-scroll hidden md:flex">
+      Scroll
+      <span class="block w-px h-9 bg-white/28"></span>
+    </div>
+
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section id="gallery">
+
+    <!-- Section label -->
+    <div class="flex items-center gap-7 px-14 pt-22 pb-12">
+      <span class="font-sans text-[0.6rem] font-light tracking-[0.32em] uppercase text-faint whitespace-nowrap">
+        Selected works
+      </span>
+      <span class="flex-1 h-px bg-faint opacity-40"></span>
+    </div>
+
+    <!-- 01 Starbucks — full width centered (tall narrow painting) -->
+    <div class="reveal">
+      <div class="flex items-center justify-center bg-warm min-h-[90vh] py-16 px-24">
+        <img
+          src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569473/starbucks_iosjqi.jpg"
+          alt="Starbucks"
+          class="max-w-full max-h-[74vh] w-auto h-auto object-contain
+                 shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11),0_40px_100px_rgba(26,24,21,0.09)]
+                 hover:scale-[1.02] transition-transform duration-700 ease-in-out"
+        >
+      </div>
+      <div class="flex justify-between items-baseline gap-4 px-14 py-7 bg-bg">
+        <h2 class="font-serif italic font-normal text-ink
+                   text-[clamp(1.4rem,2.2vw,2.2rem)]">Starbucks</h2>
+        <div class="text-right">
+          <p class="font-sans text-[0.65rem] font-light tracking-[0.18em] uppercase text-faint mb-1">Oil on canvas</p>
+          <p class="font-serif italic text-faint text-base">2025</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02+03 Cherry Blossoms & Blueberry — side by side -->
+    <div class="reveal grid grid-cols-1 md:grid-cols-2 gap-8 px-14 pt-14">
+      <!-- Cherry Blossoms -->
+      <div class="flex flex-col">
+        <div class="flex-1 bg-warm flex items-center justify-center min-h-[60vh] p-10">
+          <img
+            src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569482/cherry_blossoms_exxk2m.jpg"
+            alt="Cherry Blossoms"
+            class="max-w-full max-h-[55vh] w-auto h-auto object-contain
+                   shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11)]
+                   hover:scale-[1.025] transition-transform duration-700"
+          >
+        </div>
+        <div class="flex justify-between items-baseline gap-4 py-5 px-1">
+          <h2 class="font-serif italic font-normal text-ink text-[clamp(1.5rem,2.5vw,2.4rem)]">Cherry Blossoms</h2>
+          <div class="text-right shrink-0">
+            <p class="font-sans text-[0.65rem] tracking-[0.18em] uppercase text-faint mb-1">Oil on canvas</p>
+            <p class="font-serif italic text-faint text-base">2017</p>
+          </div>
+        </div>
+      </div>
+      <!-- Blueberry -->
+      <div class="flex flex-col">
+        <div class="flex-1 bg-warm flex items-center justify-center min-h-[60vh] p-10">
+          <img
+            src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569472/blueberry_y8xmb6.jpg"
+            alt="Blueberry"
+            class="max-w-full max-h-[55vh] w-auto h-auto object-contain
+                   shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11)]
+                   hover:scale-[1.025] transition-transform duration-700"
+          >
+        </div>
+        <div class="flex justify-between items-baseline gap-4 py-5 px-1">
+          <h2 class="font-serif italic font-normal text-ink text-[clamp(1.5rem,2.5vw,2.4rem)]">Blueberry</h2>
+          <div class="text-right shrink-0">
+            <p class="font-sans text-[0.65rem] tracking-[0.18em] uppercase text-faint mb-1">Oil on canvas</p>
+            <p class="font-serif italic text-faint text-base">2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 Seaside — full width -->
+    <div class="reveal">
+      <div class="flex items-center justify-center bg-warm min-h-[90vh] py-16 px-24">
+        <img
+          src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569473/seaside_hjhszo.jpg"
+          alt="Seaside"
+          class="max-w-full max-h-[74vh] w-auto h-auto object-contain
+                 shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11),0_40px_100px_rgba(26,24,21,0.09)]
+                 hover:scale-[1.02] transition-transform duration-700"
+        >
+      </div>
+      <div class="flex justify-between items-baseline gap-4 px-14 py-7 bg-bg">
+        <h2 class="font-serif italic font-normal text-ink text-[clamp(1.4rem,2.2vw,2.2rem)]">Seaside</h2>
+        <p class="font-sans text-[0.65rem] font-light tracking-[0.18em] uppercase text-faint">Oil on canvas</p>
+      </div>
+    </div>
+
+    <!-- 05 Horse — split: image left, info right -->
+    <div class="reveal grid grid-cols-1 md:grid-cols-[1.35fr_1fr] min-h-[90vh]">
+      <div class="overflow-hidden bg-warm min-h-[70vw] md:min-h-0">
+        <img
+          src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569472/horse_lyhit9.jpg"
+          alt="Horse"
+          class="w-full h-full object-cover hover:scale-[1.025] transition-transform duration-700"
+        >
+      </div>
+      <div class="flex flex-col justify-end px-16 py-18 bg-bg relative">
+        <span class="absolute top-12 left-0 w-px h-10 bg-faint opacity-60"></span>
+        <p class="font-sans text-[0.55rem] tracking-[0.28em] text-faint mb-12">05 / 08</p>
+        <h2 class="font-serif italic font-normal text-ink mb-5
+                   text-[clamp(2.4rem,3.5vw,4rem)]">Horse</h2>
+        <p class="font-sans text-[0.72rem] tracking-[0.22em] uppercase text-faint">Oil on canvas</p>
+      </div>
+    </div>
+
+    <!-- 06 Elephant — split reversed: info left, image right -->
+    <div class="reveal grid grid-cols-1 md:grid-cols-[1fr_1.35fr] min-h-[90vh]">
+      <div class="flex flex-col justify-end px-16 py-18 bg-bg relative order-2 md:order-1">
+        <span class="absolute top-12 right-0 w-px h-10 bg-faint opacity-60"></span>
+        <p class="font-sans text-[0.55rem] tracking-[0.28em] text-faint mb-12">06 / 08</p>
+        <h2 class="font-serif italic font-normal text-ink mb-5
+                   text-[clamp(2.4rem,3.5vw,4rem)]">Elephant</h2>
+        <p class="font-sans text-[0.72rem] tracking-[0.22em] uppercase text-faint">Oil on canvas</p>
+      </div>
+      <div class="overflow-hidden bg-warm min-h-[70vw] md:min-h-0 order-1 md:order-2">
+        <img
+          src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569472/elephant_zp2qbr.jpg"
+          alt="Elephant"
+          class="w-full h-full object-cover hover:scale-[1.025] transition-transform duration-700"
+        >
+      </div>
+    </div>
+
+    <!-- 07+08 Tootsie & Sardines — side by side -->
+    <div class="reveal grid grid-cols-1 md:grid-cols-2 gap-8 px-14 pt-14">
+      <!-- Tootsie -->
+      <div class="flex flex-col">
+        <div class="flex-1 bg-warm flex items-center justify-center min-h-[60vh] p-10">
+          <img
+            src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569474/tootsie_udj28d.jpg"
+            alt="Tootsie"
+            class="max-w-full max-h-[55vh] w-auto h-auto object-contain
+                   shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11)]
+                   hover:scale-[1.025] transition-transform duration-700"
+          >
+        </div>
+        <div class="flex justify-between items-baseline gap-4 py-5 px-1">
+          <h2 class="font-serif italic font-normal text-ink text-[clamp(1.5rem,2.5vw,2.4rem)]">Tootsie</h2>
+          <p class="font-sans text-[0.65rem] tracking-[0.18em] uppercase text-faint shrink-0">Oil on canvas</p>
+        </div>
+      </div>
+      <!-- Sardines -->
+      <div class="flex flex-col">
+        <div class="flex-1 bg-warm flex items-center justify-center min-h-[60vh] p-10">
+          <img
+            src="https://res.cloudinary.com/dldasxv3o/image/upload/q_auto,f_auto/v1772569472/sardines_kyjgql.jpg"
+            alt="Sardines"
+            class="max-w-full max-h-[55vh] w-auto h-auto object-contain
+                   shadow-[0_2px_12px_rgba(26,24,21,0.07),0_16px_48px_rgba(26,24,21,0.11)]
+                   hover:scale-[1.025] transition-transform duration-700"
+          >
+        </div>
+        <div class="flex justify-between items-baseline gap-4 py-5 px-1">
+          <h2 class="font-serif italic font-normal text-ink text-[clamp(1.5rem,2.5vw,2.4rem)]">Sardines</h2>
+          <p class="font-sans text-[0.65rem] tracking-[0.18em] uppercase text-faint shrink-0">Oil on canvas</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about"
+    class="grid grid-cols-1 md:grid-cols-[1fr_1.8fr] gap-16 md:gap-28
+           px-14 py-36 max-w-[1280px] mx-auto
+           border-t border-faint/35 mt-14">
+
+    <div>
+      <p class="font-sans text-[0.6rem] font-light tracking-[0.32em] uppercase text-accent mb-6">Artist</p>
+      <h2 class="font-serif font-normal leading-none text-ink tracking-tight
+                 text-[clamp(2.4rem,3.8vw,4rem)]">
+        Emmy<em class="block italic">Cheng</em>
+      </h2>
+      <p class="mt-4 font-serif font-light tracking-[0.35em] text-faint text-lg">李&nbsp;念&nbsp;慈</p>
+      <p class="mt-5 font-sans text-[0.62rem] font-light tracking-[0.2em] uppercase text-faint">
+        Taiwan &amp; Vancouver
+      </p>
+    </div>
+
+    <div>
+      <p class="font-serif font-light leading-[1.95] text-ink mb-5
+                text-[clamp(1.15rem,1.6vw,1.4rem)]">
+        Emmy Cheng works at the intersection of <em class="italic text-accent">oil painting</em> and
+        <em class="italic text-accent">paper clay</em> — two mediums that share an intimacy with
+        texture, weight, and the slow unfolding of form.
+      </p>
+      <p class="font-serif font-light leading-[1.95] text-ink
+                text-[clamp(1.15rem,1.6vw,1.4rem)]">
+        Her work is drawn deeply from the natural world, especially
+        <em class="italic text-accent">plants</em> and the quiet life they carry.
+        Based between Taiwan and Vancouver, she moves between two landscapes —
+        each with its own light, its own green.
+      </p>
+      <div class="w-7 h-px bg-faint my-10"></div>
+      <div class="flex flex-wrap gap-2">
+        <span class="font-sans text-[0.58rem] font-light tracking-[0.18em] uppercase text-mid
+                     border border-faint/50 px-4 py-1.5 rounded-sm">Oil painting</span>
+        <span class="font-sans text-[0.58rem] font-light tracking-[0.18em] uppercase text-mid
+                     border border-faint/50 px-4 py-1.5 rounded-sm">Paper clay</span>
+        <span class="font-sans text-[0.58rem] font-light tracking-[0.18em] uppercase text-mid
+                     border border-faint/50 px-4 py-1.5 rounded-sm">Nature</span>
+        <span class="font-sans text-[0.58rem] font-light tracking-[0.18em] uppercase text-mid
+                     border border-faint/50 px-4 py-1.5 rounded-sm">Taiwan</span>
+        <span class="font-sans text-[0.58rem] font-light tracking-[0.18em] uppercase text-mid
+                     border border-faint/50 px-4 py-1.5 rounded-sm">Vancouver</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="border-t border-faint/35 px-14 py-10
+                 flex flex-col md:flex-row justify-between items-center gap-3">
+    <span class="font-sans text-[0.62rem] font-light tracking-[0.28em] uppercase text-ink">
+      Emmy Cheng
+    </span>
+    <span class="font-sans text-[0.58rem] font-light tracking-[0.1em] text-faint">
+      &copy; 2025 Emmy Cheng. All rights reserved.
+    </span>
+  </footer>
+
+</body>
+</html>
