@@ -648,6 +648,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -660,20 +668,8 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .block {
@@ -1068,6 +1064,10 @@ video {
   font-size: clamp(1.5rem, 2.5vw, 2.4rem);
 }
 
+.text-\[clamp\(1rem\2c 1\.4vw\2c 1\.2rem\)\] {
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+}
+
 .text-\[clamp\(2\.4rem\2c 3\.5vw\2c 4rem\)\] {
   font-size: clamp(2.4rem, 3.5vw, 4rem);
 }
@@ -1088,11 +1088,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -1160,10 +1155,6 @@ video {
   letter-spacing: 0.35em;
 }
 
-.tracking-\[0\.3em\] {
-  letter-spacing: 0.3em;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -1191,6 +1182,10 @@ video {
   color: rgb(26 24 21 / var(--tw-text-opacity, 1));
 }
 
+.text-ink\/50 {
+  color: rgb(26 24 21 / 0.5);
+}
+
 .text-mid {
   --tw-text-opacity: 1;
   color: rgb(110 106 100 / var(--tw-text-opacity, 1));
@@ -1199,10 +1194,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-white\/35 {
-  color: rgb(255 255 255 / 0.35);
 }
 
 .text-white\/75 {
